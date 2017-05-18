@@ -1,0 +1,85 @@
+#header-w{
+	width:100%;
+	background:#333231;
+}
+#header{
+	width:1200px;
+	height:70px;
+	margin:0 auto;
+}
+#main-w{
+	width:100%;
+	background:#fdf8f4;
+}
+#main{
+	width:1200px;
+	height:780px;
+	margin:0 auto;
+	background:url(../img/regist/login_03.jpg);	
+}
+.regist{
+	width:310px;
+	/*height:485px;*/
+	background:#fff;
+	float:right;
+	margin-top:108px;
+	position:relative;
+	padding:30px 35px;
+	padding-bottom: 0;
+}
+.regist .box{
+	height:80px;
+}
+.regist .box p{
+	line-height: 40px;
+}
+.regist .username p span{
+	float:right;
+	color: #ccc;
+}
+.regist .fox{
+	width:308px;
+	height:40px;
+	border:1px solid #ccc;
+	
+}
+.regist .zz{
+	border:none;
+	width:288px;
+	height:40px;
+	padding:0 10px;
+	outline: 0;
+}
+.regist .yaoqing,.rb{
+	line-height: 40px;	
+}
+.rc,.rb{
+	color:#999999;
+}
+.rb a{
+	color:#999999;
+}
+.rc a{
+	color:#FF0000;
+}
+.regist .yaoqing input,.rb input{
+	position: relative;
+	top:3px;
+	margin-right:2px;
+}
+.regist .ra{
+	width:308px;
+	height:40px;
+	background:#FF0000;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 10px;	
+}
+.regist .ra a{
+	color: #fff;
+	font-size: 18px;
+}
+.regist .rc{
+	line-height: 70px;
+	height:70px;
+}
