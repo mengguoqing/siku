@@ -7,6 +7,13 @@ require.config({      //配置
 });
 
 require(["jquery","header","index"], function($, h, i){
+	$(function(){
+		console.log(h.head());
+		h.head().then(function(data){
+			//$("#header").empty().append(data);
+			 $("#header div").html(data);
 
-	// console.log($)
+		})
+
+	})
 })

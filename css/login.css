@@ -17,7 +17,21 @@
 	margin:0 auto;
 	background:url(../img/regist/login_03.jpg);	
 }
-.login{
+.container{
+	width:310px;
+	height:300px;
+	background:pink;
+	float:right;
+	margin-top:150px;
+	position:relative;
+	padding:0 35px;
+}
+.container h3{
+	margin-top: 10px;
+	line-height: 70px;
+	color: #FF0000;
+}
+/*.login{
 	width:310px;
 	background:#fff;
 	float:right;
@@ -25,10 +39,9 @@
 	position:relative;
 	padding:0 35px;
 }
-.login h2{
+.login h3{
 	margin-top: 10px;
 	line-height: 70px;
-	text-align: center;
 	color: #FF0000;
 }
 .login .box{
@@ -44,7 +57,7 @@
 	border:none;
 	height:40px;
 	margin-left:50px;
-/*	outline: 0;*/
+
 }
 
 
@@ -81,3 +94,4 @@
 	line-height: 70px;
 	height:70px;
 }
+*/

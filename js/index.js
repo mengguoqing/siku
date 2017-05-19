@@ -1,6 +1,6 @@
  
 
-define("index",["jquery"],function($){
+define("index",["jquery","header"],function($){
 
 	$(function(){
 		
@@ -9,8 +9,12 @@ define("index",["jquery"],function($){
 		$(window).scroll(function(){
 			var scrollTop =$(window).scrollTop();
 			if(scrollTop>=720){
-				$(".search-w").css("display","block")
-				$(".louti").css("display","block")
+				// $(".search-w").css("display","block")
+				// $(".louti").css("display","block")
+				$(".searchBar").css({
+					position:"fixed",
+					top:0
+				});
 			}else if(scrollTop<=720){
 				$(".search-w").css("display","none")
 				$(".louti").css("display","none")
