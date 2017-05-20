@@ -4,10 +4,10 @@ define("header",["jquery"],function($){
 	
 		return {
 			head:function(){
-			return	new Promise(function(resolve,reject){
+			//return	new Promise(function(resolve,reject){
 					$.ajax("/siku/html/common/header.html").done(function(data){
 
-						var _data = $(data).filter(".searchBar").find(".searchInput input").keyup(function(){
+						data = $(data).filter(".searchBar").find(".searchInput input").keyup(function(){
 							 console.log($(this).val());
 							var oInput=$($(".searchInput input")[0]);
 								$.ajax({
@@ -57,20 +57,20 @@ define("header",["jquery"],function($){
 							// 		}
 							// 	})
 							// 	//			二级导航效果
-							var _data=$(_data).find(".dl").mouseover(function(){
+							data=$(data).find(".dl").mouseover(function(){
 								//console.log(111)
 								$(".dd").css({"visibility":"visible","top":"-2px"})
 							}).end();
-							var _data=$(_data).mouseout(function(){
+							data=$(data).mouseout(function(){
 								$(".dd").css("visibility","hidden")
 							});
 							// $("#"+header).html(data);
-						resolve(_data);
-						
+						//resolve(_data);
+						$("#header div").html(data);
 						
 					})
 
-				})
+			//	})
 				
 			}
 		}
